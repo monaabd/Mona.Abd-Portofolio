@@ -1,0 +1,141 @@
+
+
+    .jumbotron {
+
+      margin: 3%;
+      padding: 1%;
+      border-radius: 50%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        transition: width 1s, height 4s;
+    }
+    img:hover {
+     width: 50%;
+    height: 50%; }
+
+    #myImg:hover {
+
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+
+    }
+    @media (max-width: 767px) {
+      #myImg { display: none;
+    }}
+
+   div > .dropdown {
+    color:blue ;
+     animation: dropdown-logo-spin 2 10s ;
+     position: relative;
+   }
+   @keyframes dropdown-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+    .p {
+      border-radius: 10%;
+        margin-top: 20px;
+        font-family:cursive;
+        padding:3%;
+    }
+    .firstHalf {
+        background-image:url(1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position: static;
+        display: block;
+        width: 100vw;
+        font-family: 'Love Ya Like A Sister',monospace;;
+
+
+}
+
+
+    #exercises {
+        background-color: rgb(17, 58, 232);
+        min-height: 100vh;
+    }
+    section {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    .color {
+        color: white;
+    }
+
+    #arrow {
+        bottom: 10px;
+    }
+    #arrowRow {
+        bottom: 20px;
+        left: 43%;
+        position: absolute;
+
+    }
+    #myText {
+        background-color: white;
+    }
+    i {
+        color: white;
+    }
+    h4, h2, hr {
+        color: white;
+        font-family: 'Love Ya Like A Sister',monospace;
+
+    }
+    /*a:link {
+       text-decoration: none;
+    }*/
+    a:hover {
+    color: white;
+
+    }
+
+    .exercises {
+        margin-top: 70px;
+    }
+    .parallax {
+        /* The image used */
+        background-image: url("1.jpg");
+
+        /* Set a specific height */
+        min-height: 150px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+    .animationIcon {
+         position: relative;
+        animation: mymove 5s 4;
+        -webkit-animation: mymove 5s 4; /* Safari 4.0 - 8.0 */
+        border-radius: 50%;
+        transition: width 2s, height 2s;
+    }
+
+    @media (max-width: 780px) {
+      .animationIcon {    display: none;
+    }}
+    /* Safari 4.0 - 8.0 */
+   @-webkit-keyframes mymove {
+        from {top: 0px;}
+        to {top: 850px;}
+}
+
+    @keyframes mymove {
+    from {top: 0px;}
+    to {top: 850px;}
+  }
+    }
